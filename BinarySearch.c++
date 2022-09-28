@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// 0117072121 pw
 int BinarySearch(int arr[], int target, int beginning, int end)
 {
     while (beginning <= end)
