@@ -1,5 +1,6 @@
 let array = [1, 2, 3, 4, 5];
 let newArr = [];
+
 function arr() {
   array.forEach((number, index) => {
     let reducedArray = array.filter(
@@ -9,6 +10,4 @@ function arr() {
   });
 }
 arr();
-newArr.forEach((array) => {
-  array.reduce();
-});
+console.log(newArr);
